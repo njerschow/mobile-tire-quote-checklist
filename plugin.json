@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "hoptire-quote-checklist",
+  "version": "1.0.0",
+  "description": "Compare mobile tire-service quotes, identify missing fees, and prepare follow-up questions. No booking or payment actions.",
+  "author": { "name": "HopTire", "url": "https://hoptire.com" },
+  "homepage": "https://hoptire.com/guides/find-your-tire-size",
+  "repository": "https://github.com/njerschow/mobile-tire-quote-checklist",
+  "keywords": ["tire", "mobile-tire-service", "quote-comparison", "checklist"]
+}

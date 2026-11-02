@@ -2,6 +2,16 @@
 
 A blank worksheet for comparing tire-service quotes on the same basis. Use it with any provider. It contains no customer records or provider prices.
 
+## Agent skill
+
+This repository also contains the `compare-tire-quotes` agent skill. It helps an assistant compare the same job across providers, flag unknown fees, distinguish estimates from confirmed totals, and draft follow-up questions.
+
+Example request: "Compare these two mobile tire quotes. What costs are missing, and what should I ask before choosing?"
+
+The portable package manifest is `plugin.json`. The skill is at `skills/compare-tire-quotes/SKILL.md`. Use a compatible client's plugin or skill import flow. Client support varies; no particular marketplace approval is implied.
+
+The skill requires no API key or server. It does not call providers, create bookings, take payments, or send customer information to HopTire. It contains no executable code or background tracking. Review the skill before installing it. HopTire is the publisher, not an independent reviewer of the quotes.
+
 ## Start with the same job
 
 Write down the vehicle, tire quantity, wheel positions, and service type. For a seasonal changeover, state whether the second set is already mounted on wheels. Keep tire replacement, puncture repair, and a seasonal swap as separate jobs.
